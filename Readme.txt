@@ -1,6 +1,6 @@
-Thanks for downloading this template!
+Workflow
 
-Template Name: Flexor
-Template URL: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+- git clone the repository
+- create branch with name of your choice
+- checkout branch
+- commit and push as much as you want
