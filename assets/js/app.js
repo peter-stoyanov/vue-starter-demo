@@ -2,7 +2,7 @@
 import * as ButtonCounter from "./components/ButtonCounter.js";
 import * as CustomHeader from "./components/CustomHeader.js";
 import * as HeroSection from "./components/HeroSection.js";
-
+import * as WhyUsSection from "./components/WhyUsSection.js"
 
 var app = new Vue({
     el: '#app',
