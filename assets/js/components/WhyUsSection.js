@@ -1,10 +1,11 @@
 Vue.component('why-us-section', {
-    data: function () { // best practice
-        return {
-
-        }
-    },
-    template: `
+  props: ['questionone'],
+  data: function () { // best practice
+    return {
+      question: 'Why'
+    }
+  },
+  template: `
     <!-- ======= Why Us Section ======= -->
     <section id="why-us"
              class="why-us">
@@ -14,7 +15,7 @@ Vue.component('why-us-section', {
           <div class="col-xl-4 col-lg-5"
                data-aos="fade-up">
             <div class="content">
-              <h3>Why Choose Flexor for your company website?</h3>
+              <h3>{{ questionone || question }} Choose Flexor for your company website?</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua.
