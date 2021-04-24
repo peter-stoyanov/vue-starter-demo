@@ -1,9 +1,10 @@
 // naming is PascalCase
 // create global component
 Vue.component('custom-header', {
+    props: ['externalcompany'],
     data: function () { // best practice
         return {
-
+            company: 'Flexor'
         }
     },
     template: `
@@ -13,7 +14,7 @@ Vue.component('custom-header', {
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a href="index.html"><span>Flexor</span></a></h1>
+        <h1 class="text-light"><a href="index.html"><span>{{ externalcompany || company }}</span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
