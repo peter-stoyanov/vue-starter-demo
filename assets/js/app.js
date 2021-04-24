@@ -2,7 +2,7 @@ var app = new Vue({
     el: '#app',
     data: {
         message: 'Hello Vue!',
-        name: 'Pesho',
+        name: 'Alex',
         inputValue: ''
     },
     methods: {
