@@ -5,6 +5,7 @@ import * as HeroSection from "./components/HeroSection.js";
 import * as WhyUsSection from "./components/WhyUsSection.js"
 import * as AboutSection from "./components/AboutSection.js"
 import * as ClientsSection from "./components/ClientsSection.js"
+import * as ServicesSection from "./components/ServicesSection.js"
 
 
 
